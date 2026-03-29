@@ -3,20 +3,64 @@
   <head>
 
 <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+<script src="https://rawgit.com/donmccurdy/aframe-extras/v2.1.1/dist/aframe-extras.loaders.min.js"></script> 
 <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@2.1.1/dist/aframe-extras.min.js"></script>
-    
   </head>
     <body>
     <a-scene>
-      <a-sky color="lightblue"></a-sky>
+      <a-sky src="outer-space-background.jpg"></a-sky>
       
-       <!-- Put this inside the <a-scene> -->
       <a-entity 
-      ply-model="src:dog.ply"
-      position="0 1 -2"
-      rotation="-90 0 90"
+      ply-model="src:supernova.ply"
+      position="-155.99 205.639 260.939"
+      rotation="100 0 0"
+      scale="18.380 8.610 18.740"
+      ></a-entity> 
+
+      <a-entity 
+      ply-model="src:planet asset.ply"
+      position="18.022 23.704 31.089"
+      rotation="91 -0.300 181"
+      scale="2.400 2.700 2.700"
+      ></a-entity> 
+
+
+      <a-entity 
+      ply-model="src:space rays asset.ply" 
+      position="12.760 7.773 23.814" 
+      rotation="91.290 -1.150 153.600"
+      scale="2.400 2.700 2.700" 
+      ></a-entity> 
+
+      <a-entity 
+      ply-model="src:space rays asset.ply" 
+      position="3.069 20.908 36.620" 
+      rotation="91.290 7.620 46.620"
+      scale="3.500 2.700 4.700" 
       ></a-entity>
                  
+      <a-entity 
+      ply-model="src:space rays asset.ply" 
+      position="-15.458 20.908 32.865" 
+      rotation="92.070 -77.360 32.865"
+      scale="3.500 2.700 4.700" 
+      ></a-entity>  
+
+      <a-entity 
+      ply-model="src:space clouds.ply" 
+      position="-60 -2 33" 
+      rotation="-96 -147 133"
+      scale="3.890 2.700 2.700" 
+      ></a-entity>  
+
+      <a-entity 
+      ply-model="src:space clouds.ply" 
+      position="-9.404 2 45.383" 
+      rotation="-104.03 127.26 134.620"
+      scale="3.890 2.700 2.700" 
+      ></a-entity> 
+
+
     </a-scene>
   </body>
 </html>
