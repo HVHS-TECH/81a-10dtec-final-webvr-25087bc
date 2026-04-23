@@ -14,7 +14,7 @@
       ply-model="src:supernova.ply"
       position="-155.99 205.639 260.939"
       rotation="100 0 0"
-      scale="18.380 8.610 18.740"
+      scale="21.140 17.100 20.350"
       ></a-entity> 
 
       <a-entity 
@@ -30,6 +30,16 @@
       position="12.760 7.773 23.814" 
       rotation="91.290 -1.150 153.600"
       scale="2.400 2.700 2.700" 
+
+      animation="
+      property: position;
+      from: -8.041 14.274 395.535; 
+      to: 18 80 -50; 
+      dur: 3500;
+      loop: true;
+      dir: normal
+       "
+      ></a-entity>
       ></a-entity> 
 
       <a-entity 
@@ -37,28 +47,116 @@
       position="3.069 20.908 36.620" 
       rotation="91.290 7.620 46.620"
       scale="3.500 2.700 4.700" 
+
+      animation="
+      property: position;
+      from: -8.041 14.274 395.535; 
+      to: 18 10 -50; 
+      dur: 3000;
+      loop: true;
+      dir: normal
+       "
       ></a-entity>
                  
       <a-entity 
       ply-model="src:space rays asset.ply" 
-      position="-15.458 20.908 32.865" 
+      position="-155.99 205.639 260.939" 
       rotation="92.070 -77.360 32.865"
-      scale="3.500 2.700 4.700" 
+      scale="3.500 2.700 4.700"  
+
+      animation="
+      property: position;
+      from: -8.041 14.274 395.535; 
+      to: 30 23.704 -50; 
+      dur: 4000;
+      loop: true;
+      dir: normal
+       "
       ></a-entity>  
 
       <a-entity 
       ply-model="src:space clouds.ply" 
       position="-60 -2 33" 
       rotation="-96 -147 133"
-      scale="3.890 2.700 2.700" 
+      scale="3.890 2.700 2.700"  
+
+      animation="
+        property: position; 
+        from: 9.404 2 45.383;
+        to: 5.404 3 45.383;
+        dur: 2400; 
+        loop: true; 
+        dir:alternate 
+       "
+      ></a-entity>   
+
+      <a-entity 
+      ply-model="src:space clouds.ply"
+     position="-60 -2 33" 
+     rotation="-104.03 127.26 134.620" 
+     scale="3.890 2.700 2.700" 
+
+        animation=" 
+        property: position;
+        from: -60 -2 33; 
+        to: 300 10 50;
+        dur: 100000;
+        loop: true;
+        dir:alternate 
+        "
       ></a-entity>  
+
+      
 
       <a-entity 
       ply-model="src:space clouds.ply" 
       position="-9.404 2 45.383" 
       rotation="-104.03 127.26 134.620"
       scale="3.890 2.700 2.700" 
+      
+        animation="
+        property: position; 
+        from: 9.404 2 45.383;
+        to: 5.404 3 45.383;
+        dur: 2000; 
+        loop: true; 
+        dir:alternate 
+       "
+      ></a-entity>  
+
+      <a-entity 
+      ply-model="src:space rays asset.ply" 
+      position="12.760 7.773 23.814" 
+      rotation="91.290 -1.150 153.600"
+      scale="4 2.700 2.700" 
+
+      animation="
+      property: position;
+      from: -8.041 14.274 395.535; 
+      to: 50 80 -50; 
+      dur: 3250;
+      loop: true;
+      dir: normal
+       "
       ></a-entity> 
+
+      <a-entity 
+      ply-model="src:space rays asset.ply" 
+      position="12.760 7.773 23.814" 
+      rotation="91.290 -1.150 153.600"
+      scale="2.400 2.700 2.700" 
+
+      animation="
+      property: position;
+      from: -8.041 14.274 395.535; 
+      to: -20 80 -30; 
+      dur: 3;
+      loop: true;
+      dir: normal
+       "
+      ></a-entity>
+
+      
 
 
     </a-scene>
